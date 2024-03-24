@@ -1,0 +1,11 @@
+{
+  "TYPES.Actor.ore-companies.company": "Company",
+  "ore-companies.name" : "Name",
+  "ore-companies.goal" : "Goal",
+  "ore-companies.qualities" : "Qualities",
+  "ore-companies.influlence" : "Influlence",
+  "ore-companies.might" : "Might",
+  "ore-companies.treasure" : "Treasure",
+  "ore-companies.territory" : "Territory",
+  "ore-companies.sovereignty" : "Sovereignty"
+}

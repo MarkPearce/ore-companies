@@ -1,0 +1,56 @@
+<!-- templates/actors/company.hbs -->
+<form class="companyActor-sheet">
+    <header>
+        <h1>{{actor.name}}</h1>
+    </header>
+    <section>
+        <div class="form-group-vertical">
+            <div class="keypair">
+                <label for="name">{{localize "ore-companies.name"}}</label>
+                <input id="name" name="name" type="text" value="{{actor.name}}" />
+            </div>
+            <div class="keypair">
+                <label for="goal">{{localize "ore-companies.goal"}}</label>
+                <input id="goal" name="goal" type="text" value="{{actor.goal}}" />
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>{{localize "ore-companies.qualities"}}</h2>
+        <div class="form-group-vertical">
+            <div class="keypair-stat">
+                <label for="influence">{{localize "ore-companies.influlence"}}</label>
+                <input id="influence" name="influence" type="text" value="{{actor.influence}}" />
+            </div>
+            <div class="keypair-stat">
+                <label for="might">{{localize "ore-companies.might"}}</label>
+                <input id="might" name="might" type="text" value="{{actor.might}}" />
+            </div>
+            <div class="keypair-stat">
+                <label for="treasure">{{localize "ore-companies.treasure"}}</label>
+                <input id="treasure" name="treasure" type="text" value="{{actor.treasure}}" />
+            </div>
+            <div class="keypair-stat">
+                <label for="territory">{{localize "ore-companies.territory"}}</label>
+                <input id="territory" name="territory" type="text" value="{{actor.territory}}" />
+            </div>
+            <div class="keypair-stat">
+                <label for="sovereignty">{{localize "ore-companies.sovereignty"}}</label>
+                <input id="sovereignty" name="sovereignty" type="text" value="{{actor.sovereignty}}" />
+            </div>
+        </div>
+    </section>
+
+    <!-- You can add more sections as needed for different categories of information -->
+
+</form>
+<!--
+"ore-companies.name" : "Name",
+"ore-companies.goal" : "Goal",
+"ore-companies.qualities" : "Qualities",
+"ore-companies.influlence" : "Influlence",
+"ore-companies.might" : "Might",
+"ore-companies.treasure" : "Treasure",
+"ore-companies.territory" : "Territory",
+"ore-companies.sovereignty" : "Sovereignty"
+-->

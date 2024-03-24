@@ -1,0 +1,50 @@
+{
+  "id": "ore-companies",
+  "title": "ORE-Companies",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "one-roll-engine",
+        "type": "module"
+      }
+    ]
+  },
+  "description": "Companies sheet for one role engine",
+  "authors": [
+    {
+      "name": "Mark Pearce",
+      "discord": "Mark Pearce#2772"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "company": {
+        "htmlFields": ["description.long", "description.short"],
+        "filePathFields": {
+          "img": ["IMAGE"]}
+      }
+    }
+  },
+  
+  "esmodules": [
+    "scripts/ore-companies.mjs"
+  ],
+  "styles": [
+    "styles/company.css"
+  ],
+  "templates": [
+    "templates/company.hbs"
+  ],
+  "languages": [
+  {
+    "lang": "en",
+    "name": "English",
+    "path": "lang/en.json"
+  }
+]
+}

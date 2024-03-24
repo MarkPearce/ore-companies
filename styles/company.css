@@ -1,0 +1,57 @@
+/* styles/company.css */
+.actor-sheet {
+  background: #f0f0f0;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.actor-sheet header {
+  background: #333;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px 5px 0 0;
+  margin: -10px -10px 10px -10px;
+}
+
+.actor-sheet section {
+  margin-bottom: 20px;
+}
+
+.actor-sheet section:last-child {
+  margin-bottom: 0;
+}
+
+.actor-sheet label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.actor-sheet input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-group-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Adjust the space as needed */
+}
+
+.keypair-stat {
+    display: flex;
+    flex-direction:row;
+    gap: 8px; /* Adjust the space as needed */
+
+}
+
+.keypair-stat label {
+    min-width: 100px;
+}
+
+
